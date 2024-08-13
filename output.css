@@ -1,0 +1,131 @@
+.container {
+  max-width: 1280 !important;
+}
+
+.logo-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+.whiteText {
+  color: white !important;
+}
+
+.backGroundCyan {
+  background-color: darkcyan !important;
+}
+
+.buttonHeight {
+  height: 30px;
+}
+
+.navbar-logo {
+  background-color: rgb(3, 53, 53);
+  margin-bottom: 20px;
+}
+
+.navbar-li {
+  background-color: darkcyan;
+  border: 1px solid black;
+}
+
+.footer {
+  background-color: darkcyan;
+  color: white;
+  height: 40px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-article {
+  background-color: rgb(24, 92, 82);
+  border: 6px solid;
+  border-color: darkcyan;
+}
+
+.side-article {
+  background-color: rgb(3, 53, 53);
+  color: white;
+  border: 6px solid;
+  border-color: rgb(11, 105, 105);
+}
+
+.carousel-item {
+  height: 120px auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-align: left;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
+
+@media (max-width: 993px) {
+  .navbar-nav {
+    width: 100vw;
+  }
+  .nav-item {
+    width: 70vw;
+  }
+  .nav-link {
+    display: block;
+    width: 70vw;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+}
+@media (max-width: 768px) {
+  .logo-fixed {
+    display: none;
+  }
+  .navbar-nav {
+    width: 60vw;
+  }
+  .nav-item {
+    width: 60vw;
+  }
+  .nav-link {
+    display: block;
+    width: 60vw;
+    text-align: center;
+  }
+  .side-article {
+    width: 100vw !important;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
